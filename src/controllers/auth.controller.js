@@ -21,7 +21,7 @@ async function registerUserController(req, res){
 
     if(isUserAlreadyExists){
         return res.status(400).json({
-            message: "Account already exists with this username or email"
+            message: "Account already exists with this username or email";
         })
     }
 }
